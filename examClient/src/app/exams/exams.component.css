@@ -1,0 +1,16 @@
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text{
+    min-height: 100px;
+}
+
+.card{
+    border: 0px; 
+    margin-left: auto;
+    margin-right: auto;
+}

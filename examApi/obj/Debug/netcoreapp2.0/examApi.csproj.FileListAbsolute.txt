@@ -1,0 +1,10 @@
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/bin/Debug/netcoreapp2.0/examApi.deps.json
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/bin/Debug/netcoreapp2.0/examApi.runtimeconfig.json
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/bin/Debug/netcoreapp2.0/examApi.runtimeconfig.dev.json
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/bin/Debug/netcoreapp2.0/examApi.dll
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/bin/Debug/netcoreapp2.0/examApi.pdb
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/obj/Debug/netcoreapp2.0/examApi.csproj.CoreCompileInputs.cache
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/obj/Debug/netcoreapp2.0/examApi.AssemblyInfoInputs.cache
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/obj/Debug/netcoreapp2.0/examApi.AssemblyInfo.cs
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/obj/Debug/netcoreapp2.0/examApi.dll
+/home/luca/Scrivania/WORKSPACE/WORKSPACE_FABIO_UNION/examApi/obj/Debug/netcoreapp2.0/examApi.pdb

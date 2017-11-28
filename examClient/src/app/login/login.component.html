@@ -1,0 +1,9 @@
+<div class="form-inline">
+  <!-- <input [(ngModel)]="username" class="form-control mr-sm-2" required> -->
+  
+  <input *ngIf="!getStudentLogged()" [(ngModel)]="username" required  class="form-control mr-sm-2" placeholder="user">
+  <input *ngIf="!getStudentLogged()" [(ngModel)]="password" required  class="form-control mr-sm-2" placeholder="password" > 
+  
+  <button *ngIf="!getStudentLogged()" (click)="login()" class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+  <button *ngIf="getStudentLogged()"  class="btn btn-outline-success my-2 my-sm-0" >Logout</button>
+</div>

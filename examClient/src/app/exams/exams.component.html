@@ -1,0 +1,21 @@
+
+<div class="row centered-form center-block" >
+    <div class="col container" *ngFor="let exam of exams">
+        <div class="card" style="width: 20rem;">
+            <img class="card-img-top" style="width:80px; margin-left: auto; margin-right: auto;" src="assets/images/examList.png" alt="exam list image">
+            <div class="card-body">
+                <h4 class="card-title">{{exam.professor}}</h4>
+                <div class="card-text ">
+                    <small>{{exam.date}}</small>
+                    <p class="lead">{{exam.title}}</p>
+                </div> 
+                <a href="#" *ngIf="getStudentLogged() && getStudentLogged().examReferenceId === null" (click)="enroll(exam)" class="btn btn-primary btn-block btn-lg">Enroll</a>
+                <a href="#" *ngIf="getStudentLogged() && getStudentLogged().examReferenceId === exam.id" (click)="unenroll(exam)" class="btn btn-primary btn-block btn-lg">Unenroll</a>
+                <small *ngIf="getStudentLogged() && getStudentLogged().examReferenceId !== null && getStudentLogged().examReferenceId !== exam.id">
+                    You can reserve only one Exam 
+                </small>
+                <small *ngIf="!getStudentLogged()" >Signin for <b>enroll</b></small>
+            </div>
+        </div>
+    </div>
+</div>
